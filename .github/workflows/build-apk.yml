@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Extract project
-        run: unzip -o UltraS9Time-v2-Gradle8.9.zip -d project
+        run: unzip -o UltraS9Time-v3-Gradle8.7-Compatible.zip -d project
 
       - name: Setup Java
         uses: actions/setup-java@v4
